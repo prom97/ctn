@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class SoundEngineer extends Model
 {
     use HasFactory;
+
+    protected $fillable=[
+        'name','price','category'
+
+    ];
+
+    
 }
